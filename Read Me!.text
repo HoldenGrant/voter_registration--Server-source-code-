@@ -1,0 +1,112 @@
+<-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+                            Voters Registration Version 1.0 (Server)
+                             1st_sem_2014 Voters Registration Team:
+                                {
+                                    Arnibal, Kyle M.
+                                    Causing, Holden Grant R.
+                                    Costanilla, Benedict Joel C.
+                                    Emnacen, Bermarie N.
+                                }
+                    The Voters Registration Application is a mobile application 
+                that will allow voters to register online using their smartphones. 
+            
+<-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+Read Me! file for server side.
+defaults:
+
+database
+username : vra_admin
+password : vra_admin
+
+server
+username : grant  password :  123
+username : holden password :  123
+
+Installation (SERVER):
+    *   install XAMPP or WAMP
+    *   (after installing) copy and paste "voter_registration" in the server
+    *   import the .sql file located inside "voter_registration" folder and inside "database"
+    *   import the "superUser.text" in the "Users" tab
+            (the "superUser.text" is located inside the "database" folder)
+    
+Features:
+    *   Receive applicant via registaring in android app (Voters Registration App)
+    *   Upon receiving the application data of the applicant is set as "pending"
+    *   The server (this web application) can view the applicant's data 
+    *   supports JPEG/JPG and PDF file from the applicant
+    *   Approve the application
+    *   Decline the application
+    *   Generate Ramdom Code for the applicant if it "approve" by the admin
+    *   Admin can reason-out if the application is "decline"
+    *   Send E-mail notification to the applicant
+    *   Generate report with in date rage/bracket  (From[date] To[date])
+
+User interface include three parts:
+    *   List
+    *   Applicants
+        *   Pending
+        *   Approved
+        *   Declined
+    *   Reports
+    *   Developers :)
+    
+Recomendation/s for future developer who is/are interested in this application:
+    *   add some security features like:
+        *   e-mail verifier/checker
+        *   enhance data checker for some duplicates or some dummy application
+    *   directly send e-mail upon clicking the "approve" or "decline" button
+    *   create Weekly, Monthly, Yearly report
+    *   print report/s
+    *   improve internet checking connection upon clicking "Send Mail" button 
+    *   specify a folder for the uploaded attachments (image and document) 
+
+Folders:
+    *   control             - contains controllers for web server
+    *   css
+    *   database            - contains server database and superUser (vra_databse.sql, superUser.text)
+    *   Font-awesome-4.1.0
+    *   fonts
+    *   js
+    *   less
+    *   model               - contains web app connection to the database (db.php)
+    *   PHPMailer-master    - contains files use to send e-mail to the applicants
+    *   view                - contains UI codes/scripts and a favicon
+    
+System info:
+    *   Uses Bootstrap Framework (CSS, JAVASCRIPT, JQUERY)
+    *   PHP
+    *   HTML
+
+System Requirement:
+    *   Localhost / Web Server (XAMPP or WAMP)
+        *   in the php.ini change the post_max_size to 100M and upload_max_filesize to 100M
+    *   Internet Connection
+    *   Browser (we suggest to use Google Chrome)
+
+
+Developer's Info:
+<!-- Arnibal, Kyle M.,Causing, Holden Grant R.,Costanilla, Benedict Joel C.,Emnacen, Bermarie N. -->
+<!-- ***********************************************************************************************
+
+The project was proposed by : Arnibal, Kyle M.(Project Leader/Documentation)
+Project created : 1st sem 2014
+Project Duration : almost 5 months
+
+This Project is:
+    lead by         : Arnibal, Kyle M.(Project Leader/Documentation)
+    programmed by   : Causing, Holden Grant R.(Main Web Server Programmer)
+                      Costanilla, Benedict Joel C.(Main Android Application Programmer)
+    tested by       : Emnacen, Bermarie N.(Software Tester)
+
+Software Documentation (SRS, SPMP, SDD, STD) is created by the team:
+     Arnibal, Kyle M.(Main Documentation)
+     Causing, Holden Grant R.
+     Costanilla, Benedict Joel C.
+     Emnacen, Bermarie N.
+
+This software application (server side) is created by Holden Grant R. Causing (Web Programmer).
+
+************************************************************************************************ -->
+<!-- Arnibal, Kyle M.,Causing, Holden Grant R.,Costanilla, Benedict Joel C.,Emnacen, Bermarie N. -->
